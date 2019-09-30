@@ -1,33 +1,77 @@
-.App {
-  text-align: center;
+.fullHeight {
+  height: 100vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.CodeMirror.cm-s-material-palenight {
+  height: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.CodeMirror.cm-s-ambiance {
+  height: 400px;
 }
 
-.App-link {
-  color: #61dafb;
+.CodeMirror.cm-s-cobalt {
+  height: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CodeMirror.cm-s-dracula {
+  height: 400px;
+}
+
+.CodeMirror.cm-s-eclipse {
+  height: 400px;
+}
+
+.CodeMirror.cm-s-monokai {
+  height: 400px;
+}
+
+.CodeMirror.cm-s-elegant {
+  height: 400px;
+}
+
+.CodeMirror.cm-s-oceanic-next {
+  height: 400px;
+}
+
+.CodeMirror.cm-s-shadowfox {
+  height: 400px;
+}
+
+.CodeMirror.cm-s-solarized {
+  height: 400px;
+}
+
+.noPadMar {
+  padding: 0;
+  margin: 0;
+}
+
+.customMar {
+  margin-right: 0px;
+  margin-left: -15;
+}
+
+#subscriber {
+  height: 200px !important;
+}
+
+#publisher {
+  height: 200px !important;
+}
+
+.videoPlaceholder {
+  height: 200px !important;
+}
+
+.OT_publisher,
+.OT_subscriber {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.videoChats {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(105, 104, 104);
+  border-radius: 8px 8px 0px 0px;
 }
